@@ -1,16 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import 'node_modules/swiper/swiper.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .price-table-check svg,
+    .price-table-x svg {
+        @apply stroke-secondary-100 w-[.9rem] mr-1;
+        stroke-width: 4px;
+    }
+
+    .contact-icon {
+        @apply bg-primary-600 stroke-secondary-100 fill-white flex justify-center items-center px-3;
+    }
+
+    .contact-icon svg {
+        @apply stroke-white w-4;
+    }
+
+    .contact-icon-focus {
+        @apply bg-secondary-100;
+    }
+
+    .testimonial-star svg {
+        @apply stroke-secondary-100 fill-secondary-100 w-[.9rem] mr-1;
+    }
+
+    .testimonial-empty-star svg {
+        @apply stroke-[rgba(255,255,255,.2)] fill-[rgba(255,255,255,.2)] w-[.9rem] mr-1;
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(20, 35, 31) inset !important;
+    -webkit-text-fill-color: white !important;
 }
 
-* {
-  box-sizing: border-box;
+.swiper-pagination {
+    position: relative;
+    top: 90%;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-secondary-100 !important;
 }
