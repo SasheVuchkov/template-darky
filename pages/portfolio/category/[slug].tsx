@@ -3,8 +3,10 @@ import SectionHeading from '../../../components/common/SectionHeading';
 import {getAllPosts, getAllProjects, groupSnippetsByCategory, sortByPublishedAt} from '../../../lib/blog';
 import {ProjectSnippet as ProjectSnippetType} from '../../../lib/types';
 import {GetStaticPropsContext} from 'next';
-import {getCategorySlug} from '../../../lib/utils';
+import {getCategorySlug, getPublicBrand} from '../../../lib/utils';
 import ProjectSnippet from '../../../components/portfolio/ProjectSnippet';
+import Head from 'next/head';
+import React from 'react';
 
 
 export type Props = {
@@ -15,6 +17,9 @@ export type Props = {
 export default function Index({snippets, category}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
+            <Head>
+                <title>{category} - Portfolio - {getPublicBrand()}</title>
+            </Head>
         <SectionHeading as="h1" className="text-2xl my-5">Portfolio: <span className="first-letter:uppercase">{category}</span></SectionHeading>
             <div className="flex flex-col md:flex-row  flex-wrap justify-between">
                 {snippets.map(project => <ProjectSnippet key={project.slug} {...project} className="w-full md:w-[49.3%] mb-4" />)}

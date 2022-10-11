@@ -15,12 +15,16 @@ import ProgressBar from '../components/charts/ProgressBar';
 import SkillBar from '../components/charts/SkillBar';
 import ProgressCircle from '../components/charts/ProgressCircle';
 import SkillCircle from '../components/charts/SkillCircle';
-import {formatDate, getCategorySlug} from '../lib/utils';
+import {formatDate, getCategorySlug, getPublicBrand} from '../lib/utils';
 import DefaultLink from '../components/navs/Link';
+import Head from 'next/head';
 
 export default function NotFound() {
   return (
       <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0 h-screen flex justify-center items-center" footerClass="mx-10">
+          <Head>
+              <title>Not Found - {getPublicBrand()}</title>
+          </Head>
           <div className="text-white flex justify-center items-center flex-col">
               <SectionHeading as="h1" className="text-7xl">404</SectionHeading>
               <span>Page Not Found</span>

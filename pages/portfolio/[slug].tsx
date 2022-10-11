@@ -9,12 +9,13 @@ import SectionHeading from '../../components/common/SectionHeading';
 import {getAllPosts, getAllProjects, getProjectBySlug} from '../../lib/blog';
 import {Project as ProjectType} from '../../lib/types';
 import {GetStaticProps} from 'next';
-import {formatDate, getCategorySlug} from '../../lib/utils';
+import {formatDate, getCategorySlug, getPublicBrand} from '../../lib/utils';
 import Image from 'next/image';
 import DefaultLink from '../../components/navs/Link';
 import {testimonials} from '../../lib/constants';
 import Testimonial from '../../components/common/Testimonial';
 import React from 'react';
+import Head from 'next/head';
 
 export type Props = {
     project: ProjectType,
@@ -23,6 +24,9 @@ export type Props = {
 export default function Project({project}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
+            <Head>
+                <title>{project.title} - Portfolio - {getPublicBrand()}</title>
+            </Head>
             <article>
                 <div className="flex flex-col md:flex-row justify-between items-center md:items-center">
                     <SectionHeading as='h1' className="text-3xl mt-5 mb-5 md:w-[80%]">{project.title}</SectionHeading>

@@ -15,12 +15,16 @@ import ProgressBar from '../components/charts/ProgressBar';
 import SkillBar from '../components/charts/SkillBar';
 import ProgressCircle from '../components/charts/ProgressCircle';
 import SkillCircle from '../components/charts/SkillCircle';
-import {formatDate, getCategorySlug} from '../lib/utils';
+import {formatDate, getCategorySlug, getPublicBrand} from '../lib/utils';
 import DefaultLink from '../components/navs/Link';
+import Head from 'next/head';
 
 export default function About() {
   return (
       <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
+          <Head>
+              <title>About - {getPublicBrand()}</title>
+          </Head>
           <article>
               <div className="flex justify-between items-center">
                   <SectionHeading as='h1' className="text-3xl mt-5 mb-5 w-[80%]">Let Me Introduce Myself</SectionHeading>

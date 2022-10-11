@@ -4,9 +4,11 @@ import PostSnippet from '../../components/blog/PostSnippet';
 import {getAllPosts, getAllPostSnippets, getPostBySlug, getRelatedPosts} from '../../lib/blog';
 import {Post as PostType, PostSnippet as PostSnippetType} from '../../lib/types';
 import {GetStaticProps} from 'next';
-import {formatDate, getCategorySlug} from '../../lib/utils';
+import {formatDate, getCategorySlug, getPublicBrand} from '../../lib/utils';
 import Image from 'next/image';
 import DefaultLink from '../../components/navs/Link';
+import Head from 'next/head';
+import React from 'react';
 
 export const excerpt = (str: string, wordsNumber: number) => {
     const words = str.split(' ').slice(0, wordsNumber);
@@ -21,6 +23,9 @@ export type Props = {
 export default function Post({post, related}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
+            <Head>
+                <title>{post.title} - Blog - {getPublicBrand()}</title>
+            </Head>
             <article>
                 <div className="flex flex-col md:flex-row justify-between md:items-center">
                     <SectionHeading as='h1' className="text-3xl mt-5 mb-5 md:w-[80%]">{post.title}</SectionHeading>

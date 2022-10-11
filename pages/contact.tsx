@@ -3,10 +3,16 @@ import SectionHeading from '../components/common/SectionHeading';
 import Link from 'next/link';
 import DefaultLink from '../components/navs/Link';
 import {AtSign, Mail, User} from '../components/icons';
+import Head from 'next/head';
+import {getPublicBrand} from '../lib/utils';
+import React from 'react';
 
 export default function Contact() {
     return(
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
+            <Head>
+                <title>Contact - {getPublicBrand()}</title>
+            </Head>
             <section>
                 <SectionHeading>Contact Information</SectionHeading>
                 <div className="flex flex-wrap flex-col md:flex-row justify-between">
