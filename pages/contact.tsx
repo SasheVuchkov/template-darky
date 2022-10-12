@@ -11,7 +11,7 @@ export default function Contact() {
     return(
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
             <Head>
-                <title>Contact - {getPublicBrand()}</title>
+                <title>{`Contact - ${getPublicBrand()}`}</title>
             </Head>
             <section>
                 <SectionHeading>Contact Information</SectionHeading>

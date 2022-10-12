@@ -23,7 +23,7 @@ export default function About() {
   return (
       <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
           <Head>
-              <title>About - {getPublicBrand()}</title>
+              <title>{`About - ${getPublicBrand()}`}</title>
           </Head>
           <article>
               <div className="flex justify-between items-center">

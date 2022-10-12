@@ -25,7 +25,7 @@ export default function Project({project}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
             <Head>
-                <title>{project.title} - Portfolio - {getPublicBrand()}</title>
+                <title>{`${project.title} - Portfolio - ${getPublicBrand()}`}</title>
             </Head>
             <article>
                 <div className="flex flex-col md:flex-row justify-between items-center md:items-center">

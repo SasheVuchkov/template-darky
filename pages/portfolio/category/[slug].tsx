@@ -18,7 +18,7 @@ export default function Index({snippets, category}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
             <Head>
-                <title>{category} - Portfolio - {getPublicBrand()}</title>
+                <title>{`${category} - Portfolio - ${getPublicBrand()}`}</title>
             </Head>
         <SectionHeading as="h1" className="text-2xl my-5">Portfolio: <span className="first-letter:uppercase">{category}</span></SectionHeading>
             <div className="flex flex-col md:flex-row  flex-wrap justify-between">

@@ -24,7 +24,7 @@ export default function Post({post, related}: Props) {
     return (
         <DefaultLayout mainClass="p-6 md:p-10 pt-0 pb-0" footerClass="mx-10">
             <Head>
-                <title>{post.title} - Blog - {getPublicBrand()}</title>
+                <title>{`${post.title} - Blog - ${getPublicBrand()}`}</title>
             </Head>
             <article>
                 <div className="flex flex-col md:flex-row justify-between md:items-center">

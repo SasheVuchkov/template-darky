@@ -18,7 +18,7 @@ export default function Home() {
   return (
       <DefaultLayout mainClass="p-6 md:p-10 mt-10 pb-0" footerClass="mx-10">
           <Head>
-              <title>Home - {getPublicBrand()}</title>
+              <title>{`Home - ${getPublicBrand()}`}</title>
           </Head>
           <section className="relative bottom-5 flex py-[76px] bg-primary-400 bg-opacity-50 items-start">
               <div className="z-3 absolute bottom-6 right-6  min-h-full w-full bg-primary-500"></div>

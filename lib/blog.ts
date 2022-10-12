@@ -169,10 +169,7 @@ export const getPostBySlug = async (slug: string): Promise<Post> => {
 
 export const getProjectBySlug = async (slug: string): Promise<Project> => {
     const projects = await getAllProjects();
-    console.log(projects);
     const filtered = projects.filter(project => project.slug === slug);
-
-    console.log(filtered);
     if (filtered.length < 1) {
         throw new Error('Not found');
     }
