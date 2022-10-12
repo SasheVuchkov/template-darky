@@ -17,7 +17,7 @@ export default function DefaultLayout({children, mainClass, footerClass}: PropsW
                 <div className="flex justify-center p-4 bg-primary-500" >
                     <div className="flex flex-col justify-center items-center">
                         <Image src="/images/person.png" width={150} height={152} className="rounded-[50%]" />
-                        <span className="text-white text-lg font-bold hover:text-secondary-100 transition-colors" >Aaron Day</span>
+                        <span className="text-white text-lg font-bold hover:text-secondary-100 transition-colors site-name" >Aaron Day</span>
                         <span className="text-gray-400 text-secondary-50">Full-stack Developer</span>
                     </div>
                 </div>
