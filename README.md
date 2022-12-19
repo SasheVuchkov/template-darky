@@ -8,8 +8,6 @@ Darky is a free Next.Js portfolio template created exclusively for web developer
 
 It’s built with Next.Js and Tailwind CSS, so we can confidently say it’s based on today’s trendiest web technologies. That means you will have a modern, good-looking portfolio that makes excellent first impressions. 
 
-Related: Free Blog Template For Web Developers (Next.Js)
-
 Of course, Darky is just a starter template…
 
 You can customize it however you want, so it looks unique and expresses your true personality. You can easily change the theme colors, fonts, and every other aspect of the layout. 
@@ -32,7 +30,7 @@ Moreover, I planned this template as a “marketing machine.” That means it ha
 
 And the best news?
 
-It’s free. You just need to sign up for a free membership, and you will get immediate access once you confirm your email address.
+It’s free...
 
 ###Here’s What You Get:
 
