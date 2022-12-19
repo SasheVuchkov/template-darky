@@ -14,6 +14,9 @@ You can customize it however you want, so it looks unique and expresses your tru
 
 Here are some screenshots:
 
+
+![Darky's Featured Image](https://storm2.buhalbu.com/wp-content/uploads/2022/10/darky-nextjs-portfolio-template-1024x683.jpg)
+
 ![Darky's Homepage Design](https://storm2.buhalbu.com/wp-content/uploads/2022/10/home.jpg)
 
 ![Darky's Homepage Design](https://storm2.buhalbu.com/wp-content/uploads/2022/10/about.jpg)
