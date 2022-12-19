@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Darky: Next.Js Portfolio Template Built Exclusively For Web Developers
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Preview: https://darky.buhalbu.com/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Darky is a free Next.Js portfolio template created exclusively for web developers. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+It’s built with Next.Js and Tailwind CSS, so we can confidently say it’s based on today’s trendiest web technologies. That means you will have a modern, good-looking portfolio that makes excellent first impressions. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Related: Free Blog Template For Web Developers (Next.Js)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Of course, Darky is just a starter template…
 
-## Learn More
+You can customize it however you want, so it looks unique and expresses your true personality. You can easily change the theme colors, fonts, and every other aspect of the layout. 
 
-To learn more about Next.js, take a look at the following resources:
+Here are some screenshots:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Darky's Homepage Design](https://storm2.buhalbu.com/wp-content/uploads/2022/10/home.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Darky's Homepage Design](https://storm2.buhalbu.com/wp-content/uploads/2022/10/about.jpg)
 
-## Deploy on Vercel
+### Almost “Production-Ready” Next.Js Portfolio Template
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The template is somewhat “production-ready,” meaning that it comes with all the libraries you need to deploy it as a static website on CloudFlare, Vercel, or another cloud vendor.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You just need to create a few blog posts, add some past projects, and change the copy on the rest of the pages.
+
+Then it’s a piece of cake to deploy it…
+
+Moreover, I planned this template as a “marketing machine.” That means it has all the basic “marketing stuff” that you need if you want to create a great first impression. It will help you get the best job offerings on the market or win the best freelance projects.
+
+And the best news?
+
+It’s free. You just need to sign up for a free membership, and you will get immediate access once you confirm your email address.
+
+###Here’s What You Get:
+
+- Built on pure React.Js & Next.Js without jQuery
+- Clean TypeScript code
+- 9 ready-to-use pages (Home, About, Contact, Blog, Blog Post, Blog Category, Portfolio, Project, Portfolio Category)
+- Sass/CSS included
+- Mobile-first design
+- Responsive design
+- Creative and beautiful layout;
+- Easy way to create new color schemes;
+- Fast, lightweight & powerful;
+- Integrated with Feather Icons (free icon pack);
+- React.Js (v18.2.0);
+- Next.js (v12.3.0);
+- Tailwind CSS (v4.8.3);
+- Simple routing (page based);
+- Functional components & hooks;
+- Easily customizable;
+- Reusable components;
+- User-friendly dev architecture;
+- SEO-friendly;
+- Free Google fonts are used.
+
+Preview: https://darky.buhalbu.com/
