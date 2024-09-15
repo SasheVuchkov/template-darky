@@ -19,7 +19,7 @@ Here are some screenshots:
 
 ![Darky's Homepage Design](https://buhalbu.com/wp-content/uploads/2024/09/home.jpg)
 
-![Darky's Homepage Design](https://storm2.buhalbu.com/wp-content/uploads/2022/10/about.jpg](https://buhalbu.com/wp-content/uploads/2024/09/about-scaled.jpg)
+![Darky's Homepage Design](https://buhalbu.com/wp-content/uploads/2024/09/about-scaled.jpg)
 
 ### Almost “Production-Ready” Next.Js Portfolio Template
 
